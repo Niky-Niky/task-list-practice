@@ -1,0 +1,27 @@
+{
+  "name": "task-list-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html",
+    "server": "json-server --watch db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Niky-Niky/task-list-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Niky-Niky/task-list-practice/issues"
+  },
+  "homepage": "https://github.com/Niky-Niky/task-list-practice#readme",
+  "dependencies": {
+    "json-server": "^0.17.3",
+    "lodash.debounce": "^4.0.8",
+    "lodash.throttle": "^4.1.1"
+  }
+}
